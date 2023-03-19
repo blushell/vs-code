@@ -1,0 +1,82 @@
+{
+    /* =========== THEMES =========== */
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    //"editor.wordWrap": "wordWrapColumn",
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,   
+    /* =========== VSCODE SETTINGS =========== */
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+      },
+    "search.useIgnoreFiles": false,
+    // The maximum number of editors shown in the Open Editors pane. Setting this to 0 hides the Open Editors pane.
+    "explorer.openEditors.visible": 0,
+    "editor.linkedEditing": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "emmet.showAbbreviationSuggestions": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.formatOnPaste": false,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.sortImports": true
+    },
+    "editor.mouseWheelZoom": false,
+    /* =========== BRACKETS =========== */ 
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true, 
+    "editor.matchBrackets": "always",   
+    /* =========== TERMINAL =========== */    
+    "terminal.integrated.profiles.windows": {
+      "GitBash": {
+        "path": "W:\\Program Files\\Git\\bin\\bash.exe",
+        "icon": "terminal-bash"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "terminal.integrated.fontFamily": "MesloLGM NF",
+    "terminal.integrated.fontSize": 12,
+    /* =========== GIT =========== */
+    "git.autofetch": true,     
+    /* =========== EMMET/ESLINT =========== */
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "eslint.enable": true,
+    "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+}
